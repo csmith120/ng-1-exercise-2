@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./article.component.css']
 })
 export class ArticleComponent {
-  // Your component logic here
+  title: string = 'Whatever you want';
+  content: string = 'Some content goes here';
+  isTechRelated: boolean = true;
 }
